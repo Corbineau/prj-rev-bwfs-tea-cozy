@@ -1,0 +1,142 @@
+
+html{
+    margin-top:0;
+    padding-top:0;
+}
+body {
+    margin-top:0;
+    padding-top:0;
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header nav{
+    display: flex;
+    padding-right: 10px;
+}
+
+header a{
+    display: inline-flex;
+    font-size: 22px;
+    color: seashell;
+    padding: 10px;
+}
+
+header img{
+    display: flex;
+    padding-left: 10px;
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.mission{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    padding-top: 200px;
+    background-image: url(../images/img-mission-background.jpg);
+    flex-flow: column wrap;
+    justify-content: center;
+    
+
+}
+
+.mistext{
+    display: block;
+    background-color: black;
+    
+}
+
+.mistext h2{
+    display: block;
+}
+
+.featured{
+    width: 1000px;
+    
+}
+
+.teabar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.tea{
+    
+}
+
+.tea img{
+    width: 300px;
+    height: 200px;
+    padding: 0 10px 0 10px;
+}
+
+.locations{
+    display: flex;
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+        
+}
+
+.locorow{
+    display: flex;
+    flex-flow: row;
+}
+
+.location{
+    display: flex;
+    background-color: black;
+    margin: 15px 20px 0px 20px;
+    width: 300px;
+    opacity: 1;
+    justify-content: center;
+    flex-flow: column nowrap;
+    
+}
+
+footer{
+    display: flex;
+    flex-flow: column;
+}
+
+.contact{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.copyright{
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+}
+
