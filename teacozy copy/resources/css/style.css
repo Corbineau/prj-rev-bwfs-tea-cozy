@@ -33,7 +33,7 @@ header nav{
 }
 
 header a{
-    display: inline-flex;
+    display: flex;
     font-size: 22px;
     color: seashell;
     padding: 10px;
